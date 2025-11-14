@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1763097932894,
+    "client_id": "1763085237844",
+    "product_id": "1",
+    "quantity": 1,
+    "title": null,
+    "price": null,
+    "image": null,
+    "created_at": "2025-11-14T05:25:32.894Z"
+  },
+  {
+    "id": 1763149825531,
+    "client_id": "1763085237844",
+    "product_id": "8",
+    "quantity": 1,
+    "title": null,
+    "price": null,
+    "image": null,
+    "created_at": "2025-11-14T19:50:25.532Z"
+  },
+  {
+    "id": 1763151167985,
+    "client_id": "1763151167956",
+    "product_id": "2",
+    "quantity": 1,
+    "title": null,
+    "price": null,
+    "image": null,
+    "created_at": "2025-11-14T20:12:47.985Z"
+  },
+  {
+    "id": 1763151283971,
+    "client_id": "1763151167956",
+    "product_id": "2",
+    "quantity": 1,
+    "title": null,
+    "price": null,
+    "image": null,
+    "created_at": "2025-11-14T20:14:43.971Z"
+  }
+]

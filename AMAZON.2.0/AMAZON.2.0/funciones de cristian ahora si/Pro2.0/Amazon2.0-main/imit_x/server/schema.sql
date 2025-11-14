@@ -1,0 +1,50 @@
+-- MySQL schema for products, clients, sellers, carts
+CREATE DATABASE IF NOT EXISTS amazon;
+USE amazon;
+
+CREATE TABLE IF NOT EXISTS clients (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(200) NOT NULL,
+  last_name VARCHAR(200) NOT NULL,
+  email VARCHAR(200) NOT NULL UNIQUE,
+  phone VARCHAR(20) NOT NULL,
+  password VARCHAR(200) NOT NULL,
+  user_type VARCHAR(20) DEFAULT 'client',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS sellers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(200) NOT NULL,
+  last_name VARCHAR(200) NOT NULL,
+  email VARCHAR(200) NOT NULL UNIQUE,
+  phone VARCHAR(20) NOT NULL,
+  password VARCHAR(200) NOT NULL,
+  rfc VARCHAR(20),
+  tax_situation VARCHAR(200),
+  products_to_sell TEXT,
+  user_type VARCHAR(20) DEFAULT 'seller',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  seller_id INT,
+  title VARCHAR(255) NOT NULL,
+  description TEXT,
+  price DECIMAL(10,2) NOT NULL DEFAULT 0.00,
+  category VARCHAR(100),
+  image VARCHAR(400),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (seller_id) REFERENCES sellers(id) ON DELETE SET NULL
+);
+
+CREATE TABLE IF NOT EXISTS carts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  client_id INT NOT NULL,
+  product_id INT NOT NULL,
+  quantity INT NOT NULL DEFAULT 1,
+  added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE,
+  FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+);

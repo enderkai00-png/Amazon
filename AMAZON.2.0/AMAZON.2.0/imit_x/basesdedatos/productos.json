@@ -1,0 +1,193 @@
+
+[
+  {
+    "_id": "P3001",
+    "nombre": "Smartphone Galaxy X",
+    "precio": 599.00,
+    "categoria": "Electrónica",
+    "vendedor_id": "V2001",
+    "stock": 50,
+    "descripcion": "Smartphone de última generación con cámara triple",
+    "marca": "Samsung",
+    "imagenes": ["galaxy_x_1.jpg", "galaxy_x_2.jpg"],
+    "caracteristicas": {
+      "pantalla": "6.5 pulgadas",
+      "almacenamiento": "128GB",
+      "ram": "8GB",
+      "color": "Negro"
+    },
+    "calificacion_promedio": 4.7,
+    "total_resenas": 125
+  },
+  {
+    "_id": "P3002",
+    "nombre": "Novela 'El Susurro'",
+    "precio": 18.90,
+    "categoria": "Libros",
+    "vendedor_id": "V2002",
+    "stock": 120,
+    "descripcion": "Best-seller de misterio y suspenso",
+    "marca": "Editorial Luna",
+    "imagenes": ["susurro_portada.jpg"],
+    "caracteristicas": {
+      "autor": "Ana Martínez",
+      "paginas": 350,
+      "tapa": "Blanda",
+      "idioma": "Español"
+    },
+    "calificacion_promedio": 4.5,
+    "total_resenas": 89
+  },
+  {
+    "_id": "P3003",
+    "nombre": "Zapatillas Running Pro",
+    "precio": 89.99,
+    "categoria": "Ropa Deportiva",
+    "vendedor_id": "V2003",
+    "stock": 75,
+    "descripcion": "Zapatillas profesionales para running",
+    "marca": "Nike",
+    "imagenes": ["zapatillas_negras.jpg", "zapatillas_lateral.jpg"],
+    "caracteristicas": {
+      "talla": "40-45",
+      "color": "Negro/Rojo",
+      "material": "Malla transpirable",
+      "uso": "Running"
+    },
+    "calificacion_promedio": 4.3,
+    "total_resenas": 67
+  },
+  {
+    "_id": "P3004",
+    "nombre": "Set de Sartenes Antiadherentes",
+    "precio": 45.50,
+    "categoria": "Hogar y Cocina",
+    "vendedor_id": "V2004",
+    "stock": 200,
+    "descripcion": "Set de 3 sartenes antiadherentes de calidad",
+    "marca": "Tefal",
+    "imagenes": ["sartenes_set.jpg"],
+    "caracteristicas": {
+      "piezas": 3,
+      "material": "Titanio",
+      "diámetro": "20cm, 24cm, 28cm",
+      "apto_induccion": true
+    },
+    "calificacion_promedio": 4.6,
+    "total_resenas": 156
+  },
+  {
+    "_id": "P3005",
+    "nombre": "Kit de Maquillaje Profesional",
+    "precio": 32.75,
+    "categoria": "Cosmética",
+    "vendedor_id": "V2005",
+    "stock": 90,
+    "descripcion": "Kit completo de maquillaje profesional",
+    "marca": "Maybelline",
+    "imagenes": ["kit_maquillaje_1.jpg", "kit_maquillaje_2.jpg"],
+    "caracteristicas": {
+      "piezas": 12,
+      "tono": "Natural",
+      "tipo_piel": "Todo tipo",
+      "vegano": true
+    },
+    "calificacion_promedio": 4.4,
+    "total_resenas": 43
+  },
+  {
+    "_id": "P3006",
+    "nombre": "Lego Creator 3en1",
+    "precio": 24.99,
+    "categoria": "Juguetes",
+    "vendedor_id": "V2006",
+    "stock": 150,
+    "descripcion": "Set de construcción 3 en 1 para niños",
+    "marca": "LEGO",
+    "imagenes": ["lego_creator.jpg"],
+    "caracteristicas": {
+      "piezas": 250,
+      "edad_recomendada": "7-12 años",
+      "modelos": "Coche, Avión, Barco",
+      "baterias_incluidas": false
+    },
+    "calificacion_promedio": 4.9,
+    "total_resenas": 234
+  },
+  {
+    "_id": "P3007",
+    "nombre": "Balón de Fútbol Oficial",
+    "precio": 29.95,
+    "categoria": "Deportes",
+    "vendedor_id": "V2007",
+    "stock": 300,
+    "descripcion": "Balón oficial de fútbol tamaño 5",
+    "marca": "Adidas",
+    "imagenes": ["balon_futbol.jpg"],
+    "caracteristicas": {
+      "tamaño": "5",
+      "material": "PVC",
+      "color": "Blanco/Negro",
+      "presion_recomendada": "8-10 PSI"
+    },
+    "calificacion_promedio": 4.2,
+    "total_resenas": 78
+  },
+  {
+    "_id": "P3008",
+    "nombre": "Sofá Cama Moderno",
+    "precio": 450.00,
+    "categoria": "Muebles",
+    "vendedor_id": "V2008",
+    "stock": 25,
+    "descripcion": "Sofá cama moderno de 2 plazas",
+    "marca": "Ikea",
+    "imagenes": ["sofa_abierto.jpg", "sofa_cerrado.jpg"],
+    "caracteristicas": {
+      "plazas": 2,
+      "color": "Gris",
+      "material": "Tela",
+      "dimensiones": "180x90x85 cm"
+    },
+    "calificacion_promedio": 4.5,
+    "total_resenas": 34
+  },
+  {
+    "_id": "P3009",
+    "nombre": "Botas de Senderismo",
+    "precio": 75.00,
+    "categoria": "Calzado",
+    "vendedor_id": "V2009",
+    "stock": 60,
+    "descripcion": "Botas impermeables para senderismo",
+    "marca": "Salomon",
+    "imagenes": ["botas_senderismo.jpg"],
+    "caracteristicas": {
+      "talla": "36-44",
+      "color": "Marrón",
+      "impermeable": true,
+      "material": "Cuero/Poliéster"
+    },
+    "calificacion_promedio": 4.7,
+    "total_resenas": 112
+  },
+  {
+    "_id": "P3010",
+    "nombre": "Café en Grano Premium",
+    "precio": 12.80,
+    "categoria": "Alimentación",
+    "vendedor_id": "V2010",
+    "stock": 500,
+    "descripcion": "Café 100% arábica tostado natural",
+    "marca": "Cafés La Brasileña",
+    "imagenes": ["cafe_grano.jpg"],
+    "caracteristicas": {
+      "peso": "1 kg",
+      "tostado": "Medio",
+      "origen": "Brasil",
+      "intensidad": "7/10"
+    },
+    "calificacion_promedio": 4.8,
+    "total_resenas": 267
+  }
+]

@@ -1,0 +1,57 @@
+📚 **DOCUMENTACIÓN MOVIDA**
+
+La documentación del proyecto ahora se encuentra en la carpeta **`/documentacion`**
+
+## 📋 Archivos Disponibles:
+
+1. **`documentacion/INDEX.md`** - 👈 **EMPIEZA AQUÍ**
+   - Índice completo de toda la documentación
+   - Guía de lectura recomendada
+   - Resumen del proyecto
+
+2. **`documentacion/COMANDOS.md`** - 🚀 **EJECUCIÓN DEL PROYECTO**
+   - Comandos para ejecutar backend (Terminal 1)
+   - Comandos para ejecutar frontend (Terminal 2)
+   - Solución de problemas comunes
+   - Cuentas de prueba
+
+3. **`documentacion/README.md`** - Guía Completa
+   - Descripción general
+   - Instalación y configuración
+   - Endpoints de API
+   - Estructura del proyecto
+   - Troubleshooting
+
+4. **`documentacion/QUICK_START.md`** - Guía Rápida
+   - Comandos para iniciar
+   - Rutas disponibles
+   - Troubleshooting rápido
+
+5. **`documentacion/INTERFACES.md`** - Catálogo de Componentes
+   - Documentación de todas las páginas
+   - Características de cada interfaz
+   - Flujo de navegación
+
+6. **`documentacion/CHANGELOG.md`** - Historial de Desarrollo
+   - 12 fases de desarrollo
+   - Cambios realizados
+   - Decisiones de diseño
+
+---
+
+## 🚀 Inicio Rápido (Lee COMANDOS.md):
+
+```bash
+# Terminal 1 - Backend
+cd server
+npm run dev
+
+# Terminal 2 - Frontend  
+npm run dev
+
+# Luego abre: http://localhost:5173
+```
+
+---
+
+**¡Revisa la carpeta `/documentacion` para toda la información!**

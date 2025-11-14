@@ -1,0 +1,33 @@
+/* Pone un fondo gris más oscuro a la barra de ubicación, como en Amazon */
+.location-bar {
+  --background: #e3e6e6; /* Un gris ligeramente diferente al fondo */
+  font-size: 0.8rem;
+}
+
+/* Estilos para las tarjetas de categoría (fondo blanco, sin sombra) */
+.category-card {
+  --background: #ffffff; /* Fondo blanco */
+  box-shadow: none;      /* Sin sombra */
+  border-radius: 0;      /* Bordes cuadrados */
+  text-align: center;
+  margin: 4px;
+}
+
+/* --- La Magia para el Scroll Horizontal --- */
+
+/* 1. Contenedor que permite el scroll */
+.horizontal-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+/* 2. Las tarjetas dentro del scroll (fondo blanco, sin sombra) */
+.product-card {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  --background: #ffffff;
+  box-shadow: none;
+}

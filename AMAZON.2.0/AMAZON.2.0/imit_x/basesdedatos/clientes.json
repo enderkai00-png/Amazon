@@ -1,0 +1,113 @@
+
+[
+  {
+    "_id": "C1001",
+    "nombre": "Ana",
+    "apellidos": "García López",
+    "email": "ana.garcia@mail.com",
+    "telefono": "+34 600 111 222",
+    "direccion_envio": "Calle Principal 123, Madrid",
+    "fecha_registro": "2024-01-15",
+    "metodos_pago": ["TARJ-001", "TARJ-002"],
+    "lista_deseos": ["P3001", "P3003"]
+  },
+  {
+    "_id": "C1002",
+    "nombre": "Carlos",
+    "apellidos": "Ruiz Díaz",
+    "email": "c.ruiz@mail.com",
+    "telefono": "+34 600 333 444",
+    "direccion_envio": "Avenida Central 45, Barcelona",
+    "fecha_registro": "2024-02-20",
+    "metodos_pago": ["TARJ-003"],
+    "lista_deseos": ["P3002", "P3005", "P3007"]
+  },
+  {
+    "_id": "C1003",
+    "nombre": "María",
+    "apellidos": "Fernández Castro",
+    "email": "m.fernandez@mail.com",
+    "telefono": "+34 600 555 666",
+    "direccion_envio": "Plaza Mayor 67, Valencia",
+    "fecha_registro": "2024-01-08",
+    "metodos_pago": ["TARJ-004", "TARJ-005"],
+    "lista_deseos": ["P3004"]
+  },
+  {
+    "_id": "C1004",
+    "nombre": "David",
+    "apellidos": "González Martín",
+    "email": "d.gonzalez@mail.com",
+    "telefono": "+34 600 777 888",
+    "direccion_envio": "Calle Luna 89, Sevilla",
+    "fecha_registro": "2024-03-10",
+    "metodos_pago": ["TARJ-006"],
+    "lista_deseos": ["P3001", "P3008", "P3010"]
+  },
+  {
+    "_id": "C1005",
+    "nombre": "Elena",
+    "apellidos": "Sánchez Rodríguez",
+    "email": "e.sanchez@mail.com",
+    "telefono": "+34 600 999 000",
+    "direccion_envio": "Calle Sol 12, Bilbao",
+    "fecha_registro": "2024-02-05",
+    "metodos_pago": ["TARJ-007", "TARJ-008"],
+    "lista_deseos": ["P3006", "P3009"]
+  },
+  {
+    "_id": "C1006",
+    "nombre": "Pablo",
+    "apellidos": "Jiménez Moreno",
+    "email": "p.jimenez@mail.com",
+    "telefono": "+34 611 222 333",
+    "direccion_envio": "Avenida Norte 34, Málaga",
+    "fecha_registro": "2024-01-25",
+    "metodos_pago": ["TARJ-009"],
+    "lista_deseos": ["P3003", "P3007"]
+  },
+  {
+    "_id": "C1007",
+    "nombre": "Laura",
+    "apellidos": "Martínez Navarro",
+    "email": "l.martinez@mail.com",
+    "telefono": "+34 611 444 555",
+    "direccion_envio": "Calle Este 56, Zaragoza",
+    "fecha_registro": "2024-03-15",
+    "metodos_pago": ["TARJ-010"],
+    "lista_deseos": ["P3002", "P3005"]
+  },
+  {
+    "_id": "C1008",
+    "nombre": "Sergio",
+    "apellidos": "Pérez Álvarez",
+    "email": "s.perez@mail.com",
+    "telefono": "+34 611 666 777",
+    "direccion_envio": "Calle Oeste 78, Murcia",
+    "fecha_registro": "2024-02-28",
+    "metodos_pago": ["TARJ-011", "TARJ-012"],
+    "lista_deseos": ["P3008", "P3010"]
+  },
+  {
+    "_id": "C1009",
+    "nombre": "Isabel",
+    "apellidos": "Romero Serrano",
+    "email": "i.romero@mail.com",
+    "telefono": "+34 611 888 999",
+    "direccion_envio": "Calle Sur 90, Palma",
+    "fecha_registro": "2024-01-30",
+    "metodos_pago": ["TARJ-013"],
+    "lista_deseos": ["P3004", "P3006", "P3009"]
+  },
+  {
+    "_id": "C1010",
+    "nombre": "Jorge",
+    "apellidos": "Torres Molina",
+    "email": "j.torres@mail.com",
+    "telefono": "+34 622 111 222",
+    "direccion_envio": "Avenida Sur 11, Las Palmas",
+    "fecha_registro": "2024-03-01",
+    "metodos_pago": ["TARJ-014"],
+    "lista_deseos": ["P3001", "P3007"]
+  }
+]
