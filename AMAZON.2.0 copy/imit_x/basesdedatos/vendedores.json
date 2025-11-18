@@ -1,0 +1,123 @@
+
+[
+  {
+    "_id": "V2001",
+    "nombre_tienda": "TechWorld",
+    "email_contacto": "soporte@techworld.com",
+    "categoria": "Electrónica",
+    "direccion": "Calle Tecnología 123, Madrid",
+    "telefono": "+34 900 111 222",
+    "fecha_registro": "2023-11-15",
+    "estado": "activa",
+    "productos": ["P3001", "P3011", "P3012"],
+    "calificacion_promedio": 4.8
+  },
+  {
+    "_id": "V2002",
+    "nombre_tienda": "Libros y Más",
+    "email_contacto": "contacto@librosymas.com",
+    "categoria": "Librería",
+    "direccion": "Avenida Cultura 45, Barcelona",
+    "telefono": "+34 900 333 444",
+    "fecha_registro": "2023-10-20",
+    "estado": "activa",
+    "productos": ["P3002", "P3013", "P3014"],
+    "calificacion_promedio": 4.6
+  },
+  {
+    "_id": "V2003",
+    "nombre_tienda": "ModaActiva",
+    "email_contacto": "info@modaactiva.com",
+    "categoria": "Ropa Deportiva",
+    "direccion": "Calle Deporte 67, Valencia",
+    "telefono": "+34 900 555 666",
+    "fecha_registro": "2024-01-08",
+    "estado": "activa",
+    "productos": ["P3003", "P3015", "P3016"],
+    "calificacion_promedio": 4.4
+  },
+  {
+    "_id": "V2004",
+    "nombre_tienda": "HogarVerde",
+    "email_contacto": "clientes@hogarverde.com",
+    "categoria": "Hogar y Jardín",
+    "direccion": "Plaza Hogar 89, Sevilla",
+    "telefono": "+34 900 777 888",
+    "fecha_registro": "2023-12-10",
+    "estado": "activa",
+    "productos": ["P3004", "P3017", "P3018"],
+    "calificacion_promedio": 4.7
+  },
+  {
+    "_id": "V2005",
+    "nombre_tienda": "BeautySpot",
+    "email_contacto": "hola@beautyspot.com",
+    "categoria": "Cosmética",
+    "direccion": "Calle Belleza 12, Bilbao",
+    "telefono": "+34 900 999 000",
+    "fecha_registro": "2024-02-05",
+    "estado": "activa",
+    "productos": ["P3005", "P3019", "P3020"],
+    "calificacion_promedio": 4.5
+  },
+  {
+    "_id": "V2006",
+    "nombre_tienda": "JugueteLandia",
+    "email_contacto": "ventas@juguetelandia.com",
+    "categoria": "Juguetes",
+    "direccion": "Avenida Diversión 34, Málaga",
+    "telefono": "+34 901 222 333",
+    "fecha_registro": "2023-11-25",
+    "estado": "activa",
+    "productos": ["P3006", "P3021", "P3022"],
+    "calificacion_promedio": 4.9
+  },
+  {
+    "_id": "V2007",
+    "nombre_tienda": "DeporteTotal",
+    "email_contacto": "ayuda@deportetotal.com",
+    "categoria": "Deportes",
+    "direccion": "Calle Atlética 56, Zaragoza",
+    "telefono": "+34 901 444 555",
+    "fecha_registro": "2024-01-15",
+    "estado": "activa",
+    "productos": ["P3007", "P3023", "P3024"],
+    "calificacion_promedio": 4.3
+  },
+  {
+    "_id": "V2008",
+    "nombre_tienda": "MueblesStyle",
+    "email_contacto": "info@mueblesstyle.com",
+    "categoria": "Muebles",
+    "direccion": "Calle Diseño 78, Murcia",
+    "telefono": "+34 901 666 777",
+    "fecha_registro": "2023-10-28",
+    "estado": "activa",
+    "productos": ["P3008", "P3025", "P3026"],
+    "calificacion_promedio": 4.6
+  },
+  {
+    "_id": "V2009",
+    "nombre_tienda": "ZapatosPlus",
+    "email_contacto": "contacto@zapatosplus.com",
+    "categoria": "Calzado",
+    "direccion": "Calle Moda 90, Palma",
+    "telefono": "+34 901 888 999",
+    "fecha_registro": "2024-01-30",
+    "estado": "activa",
+    "productos": ["P3009", "P3027", "P3028"],
+    "calificacion_promedio": 4.4
+  },
+  {
+    "_id": "V2010",
+    "nombre_tienda": "GourmetHouse",
+    "email_contacto": "orders@gourmethouse.com",
+    "categoria": "Alimentación",
+    "direccion": "Avenida Sabor 11, Las Palmas",
+    "telefono": "+34 902 111 222",
+    "fecha_registro": "2023-12-01",
+    "estado": "activa",
+    "productos": ["P3010", "P3029", "P3030"],
+    "calificacion_promedio": 4.8
+  }
+]
