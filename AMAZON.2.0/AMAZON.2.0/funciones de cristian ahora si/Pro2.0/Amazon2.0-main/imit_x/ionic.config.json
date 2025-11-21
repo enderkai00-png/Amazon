@@ -1,7 +1,0 @@
-{
-  "name": "imit_amazon",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
